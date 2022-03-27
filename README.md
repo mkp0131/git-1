@@ -27,6 +27,14 @@
 
 - git push 명령에 뒤에 '--set-upstream' 붙여준다면 다음 push 부터는 'git push' 만으로 할 수 있다.
 
+### git merge [파일을 가져올 branch]
+
+- 파일을 가져오고 싶은(병합하고 싶은) branch 로 이동 후 get merge [파일을 가져올 branch] 를 실행한다.
+
+### git log --pretty=format:"%h %s" --graph
+
+- 그동안의 로그를 그래프 형식으로 보여준다.
+
 ## 파일
 
 ### .gitattributes
