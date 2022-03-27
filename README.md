@@ -37,6 +37,28 @@
 
 - 그동안의 로그를 그래프 형식으로 보여준다.
 
+### git checkout [깃 로그 ID]
+
+- 돌아가고 싶은 [깃 로그 ID] 를 입력하면 해당 커밋으로 돌아갈 수 있다
+- 다시 원래 상태로 돌아올때: git checkout master
+
+### 🧤🧤🧤 git reset HEAD~숫자 --soft
+
+- 커밋을 삭제!
+- 소프트리셋
+- 내가 수정한 상태는 그대로 둔다.
+
+### 🚫 git reset HEAD~숫자
+
+- 커밋을 삭제!
+- ~숫자 만큼 커밋을 삭제!
+- 삭제후에 원격저장소 push 는 강제로 한다.
+- 하드리셋
+
+```
+git push origin master --force
+```
+
 ## 파일
 
 ### .gitattributes
