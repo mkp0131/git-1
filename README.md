@@ -7,6 +7,22 @@
 - github repo 가 이미 존재할때 사용.
 - git init, git remote add 명령어를 사용하지 않아도 git repo 에 연결되어있다.
 
+### git branch
+
+- 현재 로컬 git 에 있는 branch 리스트
+
+### git branch [branch]
+
+- branch 생성
+
+### git switch [branch]
+
+- branch 변경
+
+### 🧤🧤🧤 git swich [branch] -c
+
+- branch 생성, 변경 동시
+
 ## 파일
 
 ### .gitattributes
